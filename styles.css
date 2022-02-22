@@ -1,0 +1,63 @@
+@import url(https://king-ui.netlify.app/styles.css);
+@import url(https://king-ui.netlify.app/Stylesheets/navbar.css);
+
+@import url(https://king-ui.netlify.app/Stylesheets/reset.css);
+
+body {
+    margin: 0;
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid var(--primary-color);
+    align-items: center;
+    background-color: white;
+}
+nav .text-input {
+    width: 50%;
+    padding: 0.5rem 1rem;
+}
+.main-section {
+    margin-top: 50px;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.main-section img {
+    width: 100%;
+    height: auto;
+}
+.main-section .category-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-section .category-container img {
+    height: auto;
+    max-width: 250px;
+    width: unset;
+}
+.main-section .category-container .category {
+    position: relative;
+}
+.main-section .category-container .category .category-type {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    background: white;
+}
+.main-section .new-arrivals {
+    display: flex;
+    background-color: white;
+    gap: 10px;
+}
+.main-section .new-arrivals .card-container {
+    display: flex;
+    align-items: center;
+}
+.main-section .new-arrivals .card-container .card-image img{
+    width: 250px;
+}

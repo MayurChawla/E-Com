@@ -1,0 +1,53 @@
+@import url(https://king-ui.netlify.app/styles.css);
+@import url(https://king-ui.netlify.app/Stylesheets/navbar.css);
+
+@import url(https://king-ui.netlify.app/Stylesheets/reset.css);
+
+body {
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid var(--primary-color);
+    align-items: center;
+    background-color: white;
+}
+nav .text-input {
+    width: 50%;
+    padding: 0.5rem 1rem;
+}
+.whishlist-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.whishlist-container .card.big-basic-card {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+}
+.whishlist-container .card.big-basic-card .card-image {
+    background: none;
+    height: fit-content;
+}
+.whishlist-container .card.big-basic-card .card-image img {
+    width: 300px;
+    height: auto;
+}
+.whishlist-container .card.big-basic-card .card-container {
+    text-align: center;
+}
+.whishlist-container .card.big-basic-card .card-actions .card-buttons {
+    width: 100%;
+}
+.whishlist-container .card.big-basic-card .card-actions .card-buttons .button1 {
+    width: -webkit-fill-available;
+    background-color: var(--light-color);
+}
